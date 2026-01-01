@@ -1,4 +1,3 @@
-```md
 # 📊 Demand Forecasting System (Machine Learning)
 
 An end-to-end **Demand Forecasting application** built with **XGBoost** and deployed using **Gradio**.  
@@ -88,8 +87,6 @@ This ensures:
 
 ## 📊 Example Output
 
-```
-
 Demand Forecast (Units): 145
 
 What this means:
@@ -98,11 +95,7 @@ What this means:
 * Based on selected discount, category, and region
 * Learned from historical sales patterns
 
-```
-
 ## 📁 Project Structure
-
-```
 
 demand-forecasting-system/
 │
@@ -113,42 +106,33 @@ demand-forecasting-system/
 ├── requirements.txt           # Python dependencies
 └── README.md                  # Project documentation
 
-````
 
 ## ▶️ Getting Started
 
 ### 1️⃣ Clone the repository
-```bash
+
 git clone <repository-url>
 cd demand-forecasting-system
-````
 
 ### 2️⃣ (Optional) Create a virtual environment
 
-```bash
 python -m venv venv
 source venv/bin/activate        # Windows: venv\Scripts\activate
-```
 
 ### 3️⃣ Install dependencies
 
-```bash
 pip install -r requirements.txt
-```
 
 ### 4️⃣ Run the application
 
-```bash
 python app.py
-```
 
 ### 5️⃣ Open the app
 
 Gradio will display a local URL such as:
 
-```
 http://127.0.0.1:7860
-```
+
 ## 🧠 Key Learnings
 
 * Demand forecasting using machine learning
@@ -160,7 +144,7 @@ http://127.0.0.1:7860
 
 ## 🎤 Project Summary
 
-> “I built a demand forecasting system using XGBoost that predicts expected units sold based on discount, category, and region. The model uses internal time-series features and is deployed as a Gradio app with clear explanations and robust error handling.”
+“I built a demand forecasting system using XGBoost that predicts expected units sold based on discount, category, and region. The model uses internal time-series features and is deployed as a Gradio app with clear explanations and robust error handling.”
 
 ## 🚀 Future Enhancements
 
@@ -173,4 +157,5 @@ http://127.0.0.1:7860
 ## 📜 License
 
 This project is intended for **educational and portfolio purposes**.
+
 You are free to modify and extend it.
